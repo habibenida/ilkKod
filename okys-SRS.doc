@@ -1,0 +1,17 @@
+OTOMATİK KÜTÜPHANE YÖNETİM SİSTEMİ (OKYS)
+Yazılım Gereksinim Özellikleri (SRS)
+
+
+1. GİRİŞ
+Bu doküman, Otomatik Kütüphane Yönetim Sistemi'nin (OKYS) temel gereksinimlerini tanımlar.
+
+2. İŞLEVSEL GEREKSİNİMLER (FUNCTIONAL REQUIREMENTS)
+- FR-1: Sistem yeni kitap kaydı oluşturabilmeli ve toplam kitap sayısını static olarak tutabilmelidir.
+- FR-2: Bir kitaba ait fiziki kopyalar (KitapKopyasi) tanımlanabilmelidir.
+- FR-3: Kullanıcı kaydı yapılabilmeli ve kullanıcıya ait ödünç geçmişi listelenebilmelidir.
+- FR-4: Ödünç alma işlemi sırasında KitapKopyasi durumu "ödünçte" olarak güncellenmeli ve OduncKaydi oluşturulmalıdır.
+- FR-5: İade işleminde iade tarihi güncellenmeli ve kopyanın ödünç durumu kaldırılmalıdır.
+
+3. İŞLEVSEL OLMAYAN GEREKSİNİMLER (NON-FUNCTIONAL REQUIREMENTS)
+- NFR-1: Sistem Nesne Yönelimli Programlama (OOP) ilkelerine (Encapsulation, Immutability) uygun tasarlanmalıdır.
+- NFR-2: Veri yapılarında Java Standart Koleksiyonları (ArrayList) kullanılmalıdır.
